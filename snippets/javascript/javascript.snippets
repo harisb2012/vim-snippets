@@ -16,12 +16,12 @@ snippet anf "" w
 	}
 # Anonymous Function assigned to variable
 snippet vaf
-	var ${1:function_name} = function(${2}) {
+	const ${1:function_name} = (${2}) => {
 		${0:${VISUAL}}
 	};
 # Function assigned to variable
 snippet vf
-	var ${1:function_name} = function $1(${2}) {
+	const ${1:function_name} = $1(${2}) => {
 		${0:${VISUAL}}
 	};
 # Immediate function
