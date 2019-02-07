@@ -40,13 +40,13 @@ ${1:key}: ${2:"${3:value}"}${4:, }
 endsnippet
 
 snippet fun "function (named)" b
-const ${1:function_name}`!p snip.rv = space_before_function_paren(snip)`(${2:argument}) => {
+const ${1:function_name}`!p snip.rv = space_before_function_paren(snip)` = (${2:argument}) => {
 	${VISUAL}$0
 }
 endsnippet
 
 snippet asfun "async function (named)" b
-const ${1:function_name}`!p snip.rv = async space_before_function_paren(snip)`(${2:argument}) => {
+const ${1:function_name}`!p snip.rv = space_before_function_paren(snip)` = async (${2:argument}) => {
 	${VISUAL}$0
 }
 endsnippet
